@@ -1,0 +1,3 @@
+* move packer stuff out into a new dir
+* figure out how to have packer add my own shiz
+* have it add unikernel and autostart xl
