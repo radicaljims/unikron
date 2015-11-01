@@ -3,20 +3,20 @@ staging area for unikernel materials
 
 (* vagrant kit from: https://github.com/mirage/mirage-vagrant-vms *)
 
-1. Download Virtualbox: https://www.virtualbox.org/wiki/Downloads
+Download Virtualbox: https://www.virtualbox.org/wiki/Downloads
 
-2. Install Vagrant
+Install Vagrant:
 
     $ brew tap phinze/cask
     $ brew install brew-cask
     $ brew cask install vagrant
 
-3. Install Packer 
+Install Packer: 
 
     $ brew tap homebrew/binary
     $ brew install packer
 
-4. Spin up a box
+Spin up a box:
 
     $ cd xen_environments
     $ make ubuntu-14.04-box
